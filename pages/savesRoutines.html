@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/savesRoutines.css">
+    <link rel="icon" type="image/png" href="/src/imgs/Gemini_Generated_Image_6e21x16e21x16e21.png">
+    <title>Rutinas Guardadas | Pablodev</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <header class="navbarHeader">
+            <div class="logo">
+                <a href="http://127.0.0.1:5500/app.html">
+                    <img src="/src/imgs/logo.png" alt="logo original de la pagina">
+                </a>
+            </div>
+
+        </header>
+        
+        <div class="navbarLinks">
+            <div class="link"><a href="http://127.0.0.1:5500/index.html"><button><i class="ri-dashboard-fill"></i></button></a></div>
+            <div class="link"><a href="http://127.0.0.1:5500/pages/viewAllRoutines.html"><button><i class="ri-table-view"></i></button></a></div>
+            <div class="link"><a href="http://127.0.0.1:5500/pages/createRoutines.html"><button><i class="ri-edit-box-line"></i></button></a></div>
+            <div class="link"><a href="http://127.0.0.1:5500/pages/savesRoutines.html"><button><i class="ri-heart-3-fill"></i></button></a></div>
+        </div>
+
+        <div class="return">
+            <div class="link">
+                <button><i class="ri-logout-box-line"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbarTittleSaveRoutine">
+        <div class="containerPresent">
+            <button>Rutinas Guardadas</button>
+        </div>
+
+        <section class="containerRoutinesSaves">
+            
+        </section>
+    </nav>
+
+    <section class="contaienerViewMoreRoutines">
+        <article class="wrapperViewMoreRoutines closeContainerViewMoreRoutine">
+            <navbar class="viewMoreNavbar">
+                <nav class="nameRoutineNavbar">
+                    <h1 class="nameRoutineNavbarTitle"></h1>
+                </nav>
+
+                <nav>
+                    <button class="closeViewMoreRoutine"><i class="ri-close-circle-fill"></i></button>
+                </nav>
+            </navbar>
+
+            <navbar class="viewMoreNavbarCategory">
+               
+            </navbar>
+
+            <navbar class="namesRoutinesPases">
+                <nav class="nameExersiesRoutine">
+                    <div class="nameExersies">
+                        <span>Ejercicio</span>
+
+                        <div class="exerciesListRoutine_1">
+                           
+                        </div>
+                    </div>
+                </nav>
+
+                <nav class="nameExersiesRoutine">
+                    <div class="nameExersies">
+                        <span>Series</span>
+                        
+                        <div class="exerciesListRoutine_2">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="nameExersies">
+                        <span>Repeticiones</span>
+
+                        <div class="exerciesListRoutine_3">
+                            
+                        </div>
+                    </div>
+                </nav>
+                <nav class="nameExersiesRoutine">
+                    <div class="nameExersies">
+                        <span>Descanso</span>
+
+                        <div class="exerciesListRoutine_4">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="nameExersies">
+                        <span>Peso</span>
+
+                        <div class="exerciesListRoutine_5">
+                           
+                        </div>
+                    </div>
+                </nav>
+            </navbar>
+
+        </article>
+    </section>
+
+    <script>
+         const linksDashboard = document.querySelectorAll('.link');
+
+            function linksActiveClick () {
+                linksDashboard[3].classList.add('link_Active')
+    
+                for(let i = 0; i < linksDashboard.length; i++){
+                        linksDashboard[i].addEventListener('click', () => {
+                        linksDashboard.forEach(item => item.classList.remove('link_Active'))
+
+                        linksDashboard[i].classList.add('link_Active')
+                    })
+                }
+            }
+linksActiveClick ()
+    </script>
+
+    <script src="/scripts/savedsRoutine.js"></script>
+</body>
+</html>

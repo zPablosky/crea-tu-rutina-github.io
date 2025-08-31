@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sansation", sans-serif;
+    background: #090924;
+    background: linear-gradient(105deg, rgba(9, 9, 36, 1) 58%, rgba(20, 17, 43, 1) 100%);
+}
+
+:root {
+    --color_Primario: rgb(153, 255, 0); 
+    --color_Secundario: rgba(172, 255, 47, 0.719);
+    --color_Blur: rgba(172, 255, 47, 0.466);
+    --color_Icon: #000;
+
+    /*Box Shadows*/
+    --box_Shadow_Primario: 0 0 32px rgba(0, 0, 0, 0.085);
+    --box_Shadow_Secundario: 0 0 14px rgba(0, 0, 0, 0.165);
+
+    /*Backgrounds*/
+    --theme-backgroundColor: #4780fcd8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 10rem;
+    gap: 4rem;
+}
+
+.navbarHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10rem;
+    position: fixed;
+    width: 79.5%;
+    backdrop-filter: blur(20px);
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.logoHeader button{
+    background-color: var(--color_Primario);
+    font-size: 1em;
+    border-radius: 50px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link a{
+    font-size: 20px;
+    color: rgb(169, 170, 173);
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+.link a:hover{
+    color: #5bfd4c;
+    transition: all .3s ease;
+}
+
+.mainHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    gap: 0px 32px;
+}
+
+.infoPresentHeader{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: rgb(160, 161, 199);
+   font-size: 20px;
+   width: 580px;
+   height: 700px;
+}
+
+.infoTextHeader button{
+    border: 1px solid var(--color_Primario);
+    background-color:rgba(128, 255, 0, 0.096) ;
+    color: var(--color_Primario);
+    font-size: 18px;
+    padding: 4px 12px;
+    border-radius: 24px;
+}
+
+.infoTextHeader h1{
+    color: #fff;
+    font-size: 3em;
+}
+
+.infoTextHeader span{
+    color: var(--color_Primario);
+}
+
+.createRoutineLink button{
+    padding: 12px;
+    font-size: 22px;
+    background-color: var(--color_Primario);
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #000;
+}
+
+.followContentContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.itemInfoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+.itemInfoPage i{
+    font-size: 28px;
+    color: var(--color_Primario);
+}
+
+.itemInfoPage span{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.imgPresentHeader img{
+    width: inherit;
+    height: 700px;
+    border-radius: 24px;
+}
+
+.sectioOptionsAppContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.sectioOptionsAppContainer header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(160, 161, 199);
+}
+
+.sectioOptionsAppContainer header span{
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.containerBentoOptionsApp {
+    display: grid;
+    grid-template-columns: 1fr 280px 280px;
+    grid-template-rows: 580px 380px;
+    gap: 24px;
+}
+
+.containerBentoOptionsApp .bentoOptions{
+    transition: all .3s ease;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: rgba(72, 59, 247, 0.199);
+    border: 0.5px solid rgb(27, 59, 243);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) header,
+.containerBentoOptionsApp .bentoOptions:nth-child(4) header{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) div, 
+.containerBentoOptionsApp .bentoOptions:nth-child(4) div{
+    display: flex;
+    gap: 12px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) div button,
+.containerBentoOptionsApp .bentoOptions:nth-child(4) div button{
+    font-size: 2em;
+    padding: 10px 14px;
+    border-radius: 14px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) .tittleOptionsHeader,
+.containerBentoOptionsApp .bentoOptions:nth-child(4) .tittleOptionsHeader{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: rgb(160, 161, 199);
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) .tittleOptionsHeader span, .containerBentoOptionsApp .bentoOptions:nth-child(4) span{
+    color: #fff;
+    font-size: 24px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(1) .imgPresentOptions img{
+    border-radius: 24px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(2){
+    background-color: rgba(50, 92, 71, 0.233);
+    border: 0.5px solid rgb(11, 46, 28);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(2) header,
+.containerBentoOptionsApp .bentoOptions:nth-child(3) header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    gap: 14px;
+    font-size: 18px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(2) header button,
+.containerBentoOptionsApp .bentoOptions:nth-child(3) header button{
+    border: none;
+    font-size: 28px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: rgb(63, 245, 88);
+    color: #fff;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(2) header span,
+.containerBentoOptionsApp .bentoOptions:nth-child(3) header span{
+    font-size: 26px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(87, 36, 21, 0.295);
+    border: 0.5px solid rgb(100, 38, 23);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(3) header button{
+    background-color: orangered;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(102, 33, 76, 0.342);
+    border: 0.5px solid rgb(65, 2, 31);
+    border-radius: 12px;
+    padding: 24px;
+    grid-column-start: -4;
+    grid-column-end: -2;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(4) div button{
+    background-color: fuchsia;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(92, 61, 5, 0.199);
+    border: 0.5px solid rgba(248, 188, 59, 0.486);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(5) header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(5) header button{
+    border: none;
+    border-radius: 12px;
+    font-size: 2.4em;
+    padding: 8px 14px;
+    background-color: orangered;
+    color: #Fff;
+}
+
+.containerBentoOptionsApp .bentoOptions:nth-child(5) header span{
+    font-size: 24px;
+}
+
+.containerBentoOptionsApp .bentoOptions:hover{
+    transform: scale(1.02);
+    transition: all .3s ease;
+}
+
+.tipsOfRoutinesContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0px;
+    background: #2f2f44;
+    background: linear-gradient(105deg, rgba(55, 55, 77, 0.288) 58%, rgba(20, 17, 43, 1) 100%);
+    margin-top: 8rem;
+}
+
+.tipsOfRoutineHeaderTittle{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(160, 161, 199);
+}
+
+.tipsOfRoutineHeaderTittle span{
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.layoutTipsRoutineContainer {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    grid-template-rows: 280px 220px 320px;
+    gap: 16px;
+    padding: 10px 10rem;
+    margin-top: 6rem;
+}
+
+.layoutBentoTips_1, .layoutBentoTips_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(150deg, #2a49fd 0%, #ff4248 100%);
+    padding: 16px 24px;
+    border-radius: 16px;
+}
+
+.layoutBentoTips_1 header, .layoutBentoTips_3 header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.headerTittleBento_1, 
+.layoutBentoTips_5 header, 
+.layoutBentoTips_4 header{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.headerTittleBento_1 button{
+    background-color: rgba(255, 255, 255, 0.137);
+    border: none;
+    border-radius: 16px;
+    padding: 12px 10px;
+    backdrop-filter: blur(40px);
+    font-size: 2em;
+    color: #fff;
+}
+
+.headerTittleBento_1 button i{
+    transform: rotate(32deg);
+}
+
+.textTittleBento_1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: rgb(208, 208, 212);
+}
+
+.textTittleBento_1 span{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.textInfoBento_1{
+    font-size: 18px;
+    color: #fff;
+}
+
+.moreInfoRoutineBento_1 button, 
+.layoutBentoTips_5 header button,
+.layoutBentoTips_4 header button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: 40px;
+    font-size: 1.3em;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 16px;
+}
+
+.layoutBentoTips_2{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    background-color: transparent;
+    border-radius: 16px;
+    grid-row-end: -1;
+}
+
+.layoutFuntionRoutine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 24px;
+    width: 50%;
+    height: 275px;
+    border-radius: 16px;
+}
+
+.layoutFuntionRoutine div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+    color: rgb(208, 208, 212);
+}
+
+.layoutFuntionRoutine div:nth-child(1) span{
+    font-size: 3em;
+    color: #fff;
+}
+
+.layoutFuntionRoutine div:nth-child(1) p{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.infoLayaoutFuntionRoutine{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.infoLayaoutFuntionRoutine span{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 8px 16px;
+    border-radius: 24px;
+}
+
+.layoutBentoTips_3{
+    background-image: linear-gradient(120deg, #fd1c4c 0%, #f84417 100%);
+    padding: 16px 24px;
+    border-radius: 16px;
+    grid-row-end: -2;
+}
+
+.layoutBentoTips_4{
+    background-image: linear-gradient(150deg, #f9d423 0%, #f83600 100%);
+    grid-column-start: 2;
+    grid-row-end: -1;
+    height: 345px;
+    margin-top: -17.5%;
+    padding: 16px 24px;
+    border-radius: 16px;
+}
+
+.layoutBentoTips_5{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-image: linear-gradient(to top, #07683e 0%, #1e6952 100%);
+    grid-column-start: 2;
+    grid-row-end: -3;
+    height: 427px;
+    padding: 16px 24px;
+    border-radius: 16px;
+}
+
+.infoLayoutBento_5,  .layoutBentoTips_4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.tipsLayaoutBento_5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipsLayaoutBento_5 nav{
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 12px 24px;
+    border-radius: 24px;
+    backdrop-filter: blur(40px);
+}
+
+.containerButtonSearchMore{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.containerButtonSearchMore button{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 24px;
+    background-image: linear-gradient(120deg, #66f759 0%, #04801f 100%);
+    cursor: pointer;
+}
+
+.videoseducationalContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px 10rem;
+    margin-top: 6rem;
+}
+
+.videoseducationalContainer header{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    color: rgb(160, 161, 199);
+    font-size: 18px;
+}
+
+.videoseducationalContainer header span{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.viewVideosEducationalContainer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.viewVideoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 240px;
+    background-color: #23234b;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.backgroundVideo{
+    padding: 8px 0px;
+    width: inherit;
+    height: 180px;
+    background-color: #6f6f86;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backgroundVideo div:nth-child(1) button{
+    background-color: var(--color_Primario);
+    font-weight: 600;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 16px;
+    margin-left: 12px;
+}
+
+.backgroundVideo div:nth-child(2){
+    display: flex;
+    align-items: flex-end;
+}
+
+.backgroundVideo div:nth-child(2) button{
+    background-color: #090924;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 16px;
+    margin-right: 12px;
+}
+
+.infoVideo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 12px;
+    color: rgb(160, 161, 199);
+    font-weight: 500;
+}
+
+.infoVideo span{
+    color: #fff;
+    font-size: 18px;
+}
+
+.yourTransformationBeginsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10rem;
+    margin-top: 6rem;
+}
+
+.wrrapperYourTransformation{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-image: linear-gradient(120deg, #8dfa6c1e 0%, #5bfd4c21 25%, rgba(4, 128, 31, 0.144) 100%);
+    border: 0.5px solid #04801f;
+    border-radius: 10px;
+    padding: 24px 6rem;
+}
+
+.wrrapperYourTransformation header{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    color: rgb(160, 161, 199);
+    font-size: 18px;
+}
+
+.wrrapperYourTransformation header span{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.startTransformationButtonsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.startTransformationButtonsContainer button{
+    padding: 12px 3rem;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(120deg, #8dfa6c 0%, #5bfd4c 25% , #04801f 100%);
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer{
+    background: #2f2f44;
+    background: linear-gradient(105deg, rgba(55, 55, 77, 0.288) 58%, rgba(20, 17, 43, 1) 100%);
+    margin-top: 6rem; 
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+}
+
+.navbarFooterHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: rgb(160, 161, 199);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbarFooterHeader header{
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbarFooterHeader header button{
+    font-size: 18px;
+    background-image: linear-gradient(120deg, #8dfa6c 0%, #5bfd4c 25% , #04801f 100%);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbarFoorterLinks, .liLinksFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.navbarFoorterLinks span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.liLinksFooter li{
+    list-style: none;
+    color: rgb(160, 161, 199);
+    font-size: 18px;
+}

@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sansation", sans-serif;
+}
+
+:root {
+    --color_Primario: rgb(153, 255, 0); 
+    --color_Secundario: rgba(172, 255, 47, 0.719);
+    --color_Blur: rgba(172, 255, 47, 0.466);
+    --color_Icon: #000;
+
+    /*Box Shadows*/
+    --box_Shadow_Primario: 0 0 32px rgba(0, 0, 0, 0.085);
+    --box_Shadow_Secundario: 0 0 14px rgba(0, 0, 0, 0.165);
+
+    /*Backgrounds*/
+    --theme-backgroundColor: #4780fcd8;
+}
+
+.containerBody{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 100vh;
+}
+
+.navbarLinksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 95vh;
+}
+
+.logo_Navbar {
+    background-color: var(--color_Primario);
+    border-radius: 100px;
+    width: 38px;
+    height: 38px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.logo_Navbar img{
+    width: 38px;
+    height: 38px;
+}
+
+.navbarLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.link button{
+    border: none;
+    background-color: var(--color_Blur);
+    color: var(--color_Icon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.link button:hover{
+    background-color: var(--color_Secundario);
+    color: #000;
+    transition: all .3s ease;
+}
+
+.link_Active button{
+    background-color: var(--color_Primario);
+    color: var(--color_Icon);
+    border-radius: 100px;
+}
+
+.sectionCreateRoutine{
+    padding: 42px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.tittleHeader{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(105, 101, 101);
+}
+
+.tittleHeader span{
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.containerTittleHeader button{
+    background-color: var(--color_Primario);
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.containerTittleHeader button:hover{
+    background-color: var(--color_Secundario);
+    transition: all .3s ease;
+}
+
+.containerCreateRoutine{
+    display: flex;
+    justify-content: center;
+}
+
+.createRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 1200px;
+    padding: 24px;
+}
+
+.containerAgreeTitleRoutine, 
+.containerAgreeDaysRoutine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    height: 180px;
+    padding: 24px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 12px;
+}
+
+.containerAgreeTitleRoutine span{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.enterNameContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.enterNameContainer input{
+    font-size: 28px;
+    border: 1px solid var(--color_Secundario);
+    padding: 6px 24px;
+    color: #000;
+    outline: none;
+}
+
+.containerAgreeDaysRoutine span{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.daysListAgree, 
+.daysSelects_ExerciesTotal{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.daysListAgree{
+    margin-top: 24px;
+}
+
+.daysSelects_ExerciesTotal{
+    display: none;
+}
+
+.daysSelect, .buttonDesaciveDays {
+    font-size: 24px;
+    background-color: #fff;
+    width: 90px;
+    padding: 6px 24px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid var(--color_Primario);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.daysSelect:hover{
+    background-color: var(--color_Secundario);
+    transition: all .3s ease;
+}
+
+.selectDaysButton {
+    background-color: var(--color_Secundario);
+}
+
+.daysTotal, 
+.exerciesTotal{
+    padding: 6px 14px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 16px;
+}
+
+.daysTotal span, 
+.exerciesTotal span{
+    font-size: 18px;
+}
+
+.textSelectsExerciesContainer{
+    height: 160px;
+    padding: 24px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 12px;
+    background-color: blanchedalmond;
+}
+
+.textDisplayNone{
+    display: none;
+}
+
+.textDisplayBlock{
+    display: block;
+}
+
+#presentSectionCreateRoutine.ocultar{
+    display: none;
+}
+
+.presentSelectExerciesContainer{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.containeMyCreateRoutine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 16px 24px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 12px;
+}
+
+.headerMtCreateRoutine{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.headerMtCreateRoutine h1{
+    font-size: 24px;
+}
+
+.headerMtCreateRoutine button{
+    border: 1px solid var(--color_Primario);
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+.containerTableAgreeExersiesRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tablaContainerRoutine{
+    border: 1px solid rgb(153, 255, 0);
+    border-radius: 12px;
+}
+
+.tablaContainerRoutine header{
+    background-color: rgb(153, 255, 0);
+    padding: 8px 24px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px 1.5em;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.titleTableHeader span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tableInfo{
+    display: grid;
+    grid-template-columns: 120px 205px 230px 120px 213px 210px;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 0.5px solid rgba(153, 255, 0, 0.562);
+}
+
+.tableInfoRoutine{
+    text-align: center;
+}
+
+.tableInfoRoutineName span ,
+.tableInfoRoutine{
+    font-size: 24px;
+    font-weight: 400;   
+}
+
+.containerDatesRoutine{
+    display: grid;
+    grid-template-columns: 1fr 220px 220px 220px;
+    gap: 0px 24px;
+}
+
+.agreeNameRoutine, 
+.agreePesoRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tittleAgreeRoutine{
+    padding: 32px 0px;
+}
+
+.tittleAgreeRoutine span, .tittleAgreeRoutine i{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.agreeNameRoutine input, 
+.agreePesoRoutine input{
+    padding: 12px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 8px;
+    outline: none;
+    font-size: 24px;
+}
+
+.agreeNameRoutine input::placeholder, 
+.enterNameContainer input::placeholder, 
+.agreePesoRoutine input::placeholder{
+    color: #000;
+}
+
+.containerAgreeRoutine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.buttonAgreeExercies{
+    height: 40px;
+    margin-top: 12px;
+}
+
+.buttonAgreeExercies button{
+    background-color: var(--color_Secundario);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.plannsOfCreateRoutine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.plannsOfCreateRoutine article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    height: 220px;
+    width: 300px;
+    border: 0.5px solid var(--color_Primario);
+    border-radius: 12px;
+    padding: 16px 24px;
+    font-size: 22px;
+    color: rgb(41, 40, 40);
+}
+
+.plannsOfCreateRoutine article i,
+.plannsOfCreateRoutine article svg{
+    font-size: 3em;
+    font-weight: 600;
+    color: #000;
+}
+
+.plannsOfCreateRoutine article span{
+    background-color: #000;
+    color: var(--color_Primario);
+    width: 200px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 16px;
+}
+
+#saveRoutineUser{
+    border: none;
+    background-color: var(--color_Primario);
+    padding: 12px 6rem;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.presentContainerCreateRoutineInterfaz{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 24px;
+}
+
+.wrrapperNoSavedRoutines{
+    border: 0.5px solid var(--color_Primario);
+    background-color: rgb(250, 230, 200);
+    padding: 32px 8rem;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+}
+
+.wrrapperNoSavedRoutines span{
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.savesRoutineTheUser{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.savesRoutineTheUser header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 22px;
+    color: rgb(105, 101, 101);
+    text-align: center;
+} 
+
+.savesRoutineTheUser header span{
+    font-size: 2em;
+    color: #000;
+    font-weight: 600;
+}
+
+.savesRoutineTheUser header button{
+    font-size: 20px;
+    border: 1px solid var(--color_Primario);
+    padding: 2px 24px;
+    border-radius: 16px;
+    font-size: 600;
+}
+
+.savesRoutineTheUser header button span{
+    font-size: 18px;
+}
+
+.containerSavesRoutineOfUser{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 32px;
+    gap: 24px;
+}
+
+.wrraperRoutineCreate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--color_Primario);
+    padding: 24px;
+    width: 455px;
+    border-radius: 12px;
+}
+
+.headerRoutine span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.headerRoutine p{
+    font-size: 18px;
+    color: rgb(105, 101, 101);
+}
+
+.infoRoutine{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(252, 203, 203, 0.521);
+    padding: 24px;
+    border-radius: 16px;
+    width: 150px;
+    color: rgb(68, 68, 68);
+}
+
+.itemInfo span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.containerDaysRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.daysRoutine{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.daysRoutine button{
+    border: none;
+    background-color: rgba(133, 167, 231, 0.322);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    font-size: 18px;
+    color: blue;
+}
+
+.containerOptionsRoutine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.containerOptionsRoutine button:nth-child(1){
+    text-align: center;
+    background-color: var(--color_Primario);
+    border: none;
+    padding: 8px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.containerOptionsRoutine button:nth-child(2){
+    text-align: center;
+    background-color: rgb(250, 115, 115);
+    border: none;
+    padding: 8px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.containerTableNone, .viewCardRoutineDisplay{
+    display: none;
+}
+
+.buttonCreateRoutineDisplay{
+    display: none;
+}
+
+.containerViewRoutine{
+    position: absolute;
+    width: 97%;
+    height: 94.6vh;
+    background-color: rgba(0, 0, 0, 0.521);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.wrrapperContainerViewRoutine{
+    background-color: #fff;
+    width: 1400px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: scroll;
+    max-width: 90%;
+}
+
+.wrrapperContainerViewRoutine nav{
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+}
+
+.wrrapperContainerViewRoutine nav button{
+    border: 1px solid var(--color_Primario);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.wrrapperContainerViewRoutine nav button:hover{
+    background-color: var(--color_Primario);
+    transition: all .2s ease;
+}
+
+.headerCotnainerViewRoutine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 28px 0px;
+    background: #40cf19;
+    background: linear-gradient(131deg, rgba(64, 207, 25, 1) 65%, rgba(173, 245, 105, 1) 100%);
+    border-radius: 24px 24px 0px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headerCotnainerViewRoutine span{
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.containerTableViewRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px;
+}
+
+.wrapperContainerTableViewRoutine{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    border: 1px solid var(--color_Primario);
+    border-radius: 8px;
+}
+
+.wrapperContainerTableViewRoutine header button{
+    border: none;
+    background-color: var(--color_Primario);
+    font-size: 24px;
+    padding: 8px 26px;
+    border-radius: 12px;
+}
+
+.headerTableContainerView{
+    display: grid;
+    grid-template-columns: 250px 250px 320px 350px 100px ;
+    background: #40cf19;
+    background: linear-gradient(131deg, rgba(64, 207, 25, 1) 65%, rgba(173, 245, 105, 1) 100%);
+    border-radius: 12px 12px 0px 0px;
+    padding: 6px 24px;
+    margin-top: 22px;
+}
+
+.headerButtonDay{
+    background-color: #40cf19;
+    border: none;
+    padding: 12px 24px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.infoTableRoutineView span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tableViewContainerRoutine{
+    border: 1px solid #40cf19;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.tableItemsInfoRoutineView{
+    padding: 12px 20px;
+    border-bottom: 1px solid #7bf8588f;
+    display: grid;
+    grid-template-columns: 275px 266px 315px 300px 50px;
+}
+
+.itemTableViewInfo span{
+    font-size: 24px;
+}
+
+.contaierViewRoutineDisplay{
+    display: none;
+}
+
+.tableAgreeRoutineDisplay{
+    display: none;
+}

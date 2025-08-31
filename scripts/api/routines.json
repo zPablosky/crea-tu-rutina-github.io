@@ -1,0 +1,2559 @@
+{
+  "rutinas": [
+    {
+      "nombre": "Volumen Total 1",
+      "cantidad": 6,
+      "Categoria": "Hipertrofia",
+      "duracion": 75,
+      "dificultad": "Intermedia",
+      "dificultad_num": 70,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Press de banca plano",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Press de banca inclinado",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Aperturas planas con mancuernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Fondos en paralelas (con o sin peso)",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Press francés con barra Z",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Extensiones de tríceps con cuerda en polea alta",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "grupoMuscular": "Espalda y Bíceps",
+          "ejercicios": [
+            {
+              "nombre": "Dominadas (o jalones al pecho con agarre amplio)",
+              "series": 4,
+              "repeticiones": "Máx.",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo con barra (agarre prono)",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo con mancuernas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Jalón al pecho con agarre estrecho (supino)",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl con barra recta",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl con mancuernas (alterno)",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl concentrado",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "grupoMuscular": "Piernas",
+          "ejercicios": [
+            {
+              "nombre": "Sentadilla libre",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "120-180",
+              "peso": ""
+            },
+            {
+              "nombre": "Prensa de piernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas con mancuernas (alternando piernas)",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Peso muerto rumano",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Extensiones de cuádriceps en máquina",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl femoral en máquina",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevación de talones (gemelos)",
+              "series": 4,
+              "repeticiones": "15-20",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "grupoMuscular": "Hombros y Abdominales",
+          "ejercicios": [
+            {
+              "nombre": "Press militar con barra (de pie o sentado)",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones laterales con mancuernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones frontales con mancuernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo al mentón con barra",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha abdominal",
+              "series": 3,
+              "repeticiones": "Mantener el máximo tiempo posible con buena forma",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Crunches abdominales",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones de piernas colgado",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "nombre": "Construcción Muscular 2",
+      "cantidad": 5,
+      "Categoria": "Hipertrofia",
+      "duracion": 80,
+      "dificultad": "Intermedia-Avanzada",
+      "dificultad_num": 78,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "grupoMuscular": "Pecho y Bíceps",
+          "ejercicios": [
+            {
+              "nombre": "Press de banca con barra",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Press de banca inclinado con mancuernas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Aperturas con mancuernas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl de bíceps con barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl con mancuernas martillo",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "grupoMuscular": "Espalda y Tríceps",
+          "ejercicios": [
+            {
+              "nombre": "Peso muerto",
+              "series": 3,
+              "repeticiones": "5-8",
+              "descanso": "120-180",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas (o jalones al pecho con agarre prono)",
+              "series": 3,
+              "repeticiones": "Máx.",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo con barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Press francés",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Extensiones de tríceps en polea alta",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "grupoMuscular": "Piernas",
+          "ejercicios": [
+            {
+              "nombre": "Sentadilla con barra",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "120-180",
+              "peso": ""
+            },
+            {
+              "nombre": "Prensa de piernas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl femoral",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevación de gemelos",
+              "series": 4,
+              "repeticiones": "15-20",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "grupoMuscular": "Descanso Activo",
+          "ejercicios": [
+            {
+              "nombre": "Cardio ligero (caminar, bicicleta suave)",
+              "duracion": "30-45 minutos"
+            },
+            {
+              "nombre": "Estiramientos",
+              "duracion": "15-20 minutos"
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "grupoMuscular": "Hombros y Abdominales",
+          "ejercicios": [
+            {
+              "nombre": "Press militar con barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones laterales",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones frontales",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha",
+              "series": 3,
+              "repeticiones": "Mantener el máximo tiempo posible",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Crunches",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones de piernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "nombre": "Enfoque Hipertrófico 3",
+      "cantidad": 4,
+      "Categoria": "Hipertrofia",
+      "duracion": 70,
+      "dificultad": "Intermedia",
+      "dificultad_num": 65,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Press de banca inclinado",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Aperturas con mancuernas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+             {
+              "nombre": "Curl con barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Remo con barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Jalones al pecho",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+             {
+              "nombre": "Extensiones de triceps",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Sentadillas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Peso muerto rumano",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+             {
+              "nombre": "Elevación de talones",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Press militar",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones laterales",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+             {
+              "nombre": "Crunches",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Máxima Expansión 4",
+      "cantidad": 6,
+      "Categoria": "Hipertrofia",
+      "duracion": 85,
+      "dificultad": "Avanzada",
+      "dificultad_num": 82,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Press de banca con barra",
+              "series": 4,
+              "repeticiones": "6-8",
+              "descanso": "120",
+              "peso": ""
+            },
+            {
+              "nombre": "Press inclinado mancuernas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Aperturas con mancuernas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Peso muerto",
+              "series": 4,
+              "repeticiones": "4-6",
+              "descanso": "180",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo con barra",
+              "series": 4,
+              "repeticiones": "6-8",
+              "descanso": "120",
+              "peso": ""
+            },
+            {
+              "nombre": "Jalones al pecho",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [
+            {
+              "nombre": "Sentadilla con barra",
+              "series": 4,
+              "repeticiones": "6-8",
+              "descanso": "120-180",
+              "peso": ""
+            },
+            {
+              "nombre": "Prensa de piernas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas",
+              "series": 3,
+              "repeticiones": "10-12",
+              "descanso": "75-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+        "dia": "Jueves",
+        "ejercicios": [
+            {
+              "nombre": "Press militar",
+              "series": 4,
+              "repeticiones": "6-8",
+              "descanso": "120",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones laterales",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones frontales",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos con peso",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Press francés",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl con barra",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl martillo",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "75-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+            {
+              "nombre": "Plancha",
+              "series": 3,
+              "repeticiones": "Max tiempo",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones de piernas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Desafío Muscular 5",
+      "cantidad": 5,
+      "Categoria": "Hipertrofia",
+      "duracion": 78,
+      "dificultad": "Intermedia",
+      "dificultad_num": 72,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Press banca inclinado",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Aperturas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl barra",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Remo barra",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Jalones",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Extensiones triceps",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [{
+              "nombre": "Sentadillas",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90-120",
+              "peso": ""
+            },
+            {
+              "nombre": "Prensa",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Curl femoral",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Press militar",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Elevaciones laterales",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "75-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Crunches",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+           {
+              "nombre": "Elevación de talones",
+              "series": 4,
+              "repeticiones": "15-20",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Fundamentos Ágiles 1",
+      "cantidad": 7,
+      "Categoria": "Calistenia",
+      "duracion": 60,
+      "dificultad": "Principiante-Intermedia",
+      "dificultad_num": 55,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas asistidas",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Sentadillas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha",
+              "series": 3,
+              "repeticiones": "30-60 segundos",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas asistidas",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Burpees",
+              "series": 3,
+              "repeticiones": "8-10",
+              "descanso": "60-90",
+              "peso": ""
+            },
+            {
+              "nombre": "Saltos de tijera",
+              "series": 3,
+              "repeticiones": "15-20",
+              "descanso": "30",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha lateral (cada lado)",
+              "series": 3,
+              "repeticiones": "30-60 segundos",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+            {
+              "nombre": "Sentadillas con salto",
+              "series": 3,
+              "repeticiones": "10-12",
+              "descanso": "60",
+              "peso": ""
+            },
+             {
+              "nombre": "Abdominales bicicleta",
+              "series": 3,
+              "repeticiones": "15-20 por lado",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Domingo",
+          "ejercicios": [
+            {
+              "nombre": "Estiramientos",
+              "series": 1,
+              "repeticiones": "15-20 minutos",
+              "descanso": "0",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Control Corporal 2",
+      "cantidad": 6,
+      "Categoria": "Calistenia",
+      "duracion": 65,
+      "dificultad": "Intermedia",
+      "dificultad_num": 68,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones elevadas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas",
+              "series": 3,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Sentadillas pistol (asistidas)",
+              "series": 3,
+              "repeticiones": "6-8 por pierna",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (pies elevados)",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha con rotación",
+              "series": 3,
+              "repeticiones": "8-10 por lado",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones elevadas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas",
+              "series": 3,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas inversas",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones pliométricas",
+              "series": 3,
+              "repeticiones": "6-8",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Saltos a la caja (baja)",
+              "series": 3,
+              "repeticiones": "8-10",
+              "descanso": "60-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (pies elevados)",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha lateral (cada lado)",
+              "series": 3,
+              "repeticiones": "30-60 segundos",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+            {
+              "nombre": "Sentadillas con salto",
+              "series": 3,
+              "repeticiones": "10-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Abdominales dragon flag (regresiones)",
+              "series": 3,
+              "repeticiones": "6-8",
+              "descanso": "60-90",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Movimiento Armonioso 3",
+      "cantidad": 8,
+      "Categoria": "Calistenia",
+      "duracion": 70,
+      "dificultad": "Intermedia-Avanzada",
+      "dificultad_num": 75,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones declinadas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas con agarre supino",
+              "series": 3,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Sentadillas búlgaras",
+              "series": 3,
+              "repeticiones": "8-10 por pierna",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas (con peso)",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (avanzado)",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha a un brazo (regresiones)",
+              "series": 3,
+              "repeticiones": "Sostener 20-30 segundos por brazo",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [
+             {
+              "nombre": "Flexiones declinadas",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas con agarre supino",
+              "series": 3,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas laterales",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones pliométricas",
+              "series": 3,
+              "repeticiones": "6-8",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Saltos a la caja (media)",
+              "series": 3,
+              "repeticiones": "8-10",
+              "descanso": "60-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas (con peso)",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (avanzado)",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha a un brazo (regresiones)",
+              "series": 3,
+              "repeticiones": "Sostener 20-30 segundos por brazo",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+            {
+              "nombre": "Sentadillas con salto",
+              "series": 3,
+              "repeticiones": "10-12",
+              "descanso": "60",
+              "peso": ""
+            },
+            {
+              "nombre": "Abdominales dragon flag (regresiones)",
+              "series": 3,
+              "repeticiones": "6-8",
+              "descanso": "60-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Domingo",
+          "ejercicios": [
+            {
+              "nombre": "Estiramientos dinámicos",
+              "series": 1,
+              "repeticiones": "15-20 minutos",
+              "descanso": "0",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Fuerza con tu Peso 4",
+      "cantidad": 5,
+      "Categoria": "Calistenia",
+      "duracion": 55,
+      "dificultad": "Intermedia",
+      "dificultad_num": 62,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas",
+              "series": 4,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Sentadillas",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha",
+              "series": 3,
+              "repeticiones": "30-60 segundos",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones",
+              "series": 4,
+              "repeticiones": "8-12",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas",
+              "series": 4,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas",
+              "series": 3,
+              "repeticiones": "8-12",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido",
+              "series": 3,
+              "repeticiones": "10-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha lateral (cada lado)",
+              "series": 3,
+              "repeticiones": "30-60 segundos",
+              "descanso": "45",
+              "peso": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dominio Calisténico 5",
+      "cantidad": 7,
+      "Categoria": "Calistenia",
+      "duracion": 72,
+      "dificultad": "Avanzada",
+      "dificultad_num": 80,
+      "dias": [
+        {
+          "dia": "Lunes",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones declinadas",
+              "series": 4,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas con agarre supino",
+              "series": 4,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Sentadillas pistol",
+              "series": 3,
+              "repeticiones": "6-8 por pierna",
+              "descanso": "60-75",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Martes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas (con peso)",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (avanzado)",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+            {
+              "nombre": "Plancha a un brazo (regresiones)",
+              "series": 3,
+              "repeticiones": "Sostener 20-30 segundos por brazo",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Miércoles",
+          "ejercicios": [
+            {
+               "nombre": "Flexiones declinadas",
+              "series": 4,
+              "repeticiones": "10-15",
+              "descanso": "60-75",
+              "peso": ""
+            },
+            {
+              "nombre": "Dominadas con agarre supino",
+              "series": 4,
+              "repeticiones": "Máx.",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Zancadas laterales",
+              "series": 3,
+              "repeticiones": "10-12 por pierna",
+              "descanso": "45-60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Jueves",
+          "ejercicios": [
+            {
+              "nombre": "Flexiones pliométricas",
+              "series": 3,
+              "repeticiones": "6-8",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Saltos a la caja (media)",
+              "series": 3,
+              "repeticiones": "8-10",
+              "descanso": "60-90",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Viernes",
+          "ejercicios": [
+            {
+              "nombre": "Fondos en paralelas (con peso)",
+              "series": 3,
+              "repeticiones": "6-10",
+              "descanso": "90",
+              "peso": ""
+            },
+            {
+              "nombre": "Remo invertido (avanzado)",
+              "series": 3,
+              "repeticiones": "12-15",
+              "descanso": "45-60",
+              "peso": ""
+            },
+             {
+              "nombre": "Plancha a un brazo (regresiones)",
+              "series": 3,
+              "repeticiones": "Sostener 20-30 segundos por brazo",
+              "descanso": "60",
+              "peso": ""
+            }
+          ]
+        },
+        {
+          "dia": "Sábado",
+          "ejercicios": [
+            {
+              "nombre": "Sentadillas con salto",
+              "series": 3,
+              "repeticiones": "10-12",
+              "descanso": "60",
+              "peso": ""
+            }
+            ]
+          }
+        ]
+      },
+      
+        {
+          "nombre": "Potencia Bruta 1",
+          "cantidad": 3,
+          "Categoria": "Fuerza",
+          "duracion": 50,
+          "dificultad": "Intermedia-Avanzada",
+          "dificultad_num": 85,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla con barra",
+                  "series": 4,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press de banca plano",
+                  "series": 4,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo con barra",
+                  "series": 4,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Press militar",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Dominadas (con o sin asistencia)",
+                  "series": 3,
+                  "repeticiones": "Al fallo o 6-10",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Peso muerto",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "180",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Zancadas con mancuernas",
+                  "series": 3,
+                  "repeticiones": "10-12 por pierna",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press inclinado con mancuernas",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo con mancuernas",
+                  "series": 3,
+                  "repeticiones": "8-12 por brazo",
+                  "descanso": "90",
+                  "peso": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Núcleo de Acero 2",
+          "cantidad": 4,
+          "Categoria": "Fuerza",
+          "duracion": 55,
+          "dificultad": "Avanzada",
+          "dificultad_num": 90,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla frontal con barra",
+                  "series": 4,
+                  "repeticiones": "5-8",
+                  "descanso": "150",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press de banca con pausa",
+                  "series": 4,
+                  "repeticiones": "5-8",
+                  "descanso": "150",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo Pendlay",
+                  "series": 4,
+                  "repeticiones": "5-8",
+                  "descanso": "150",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Press de hombros con barra tras nuca",
+                  "series": 3,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Dominadas estrictas",
+                  "series": 3,
+                  "repeticiones": "Al fallo",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Peso muerto rumano",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla búlgara",
+                  "series": 3,
+                  "repeticiones": "8-10 por pierna",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press declinado con barra",
+                  "series": 3,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo con barra T",
+                  "series": 3,
+                  "repeticiones": "6-10",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Fuerza Fundamental 3",
+          "cantidad": 3,
+          "Categoria": "Fuerza",
+          "duracion": 45,
+          "dificultad": "Intermedia",
+          "dificultad_num": 78,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press de banca",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo con barra",
+                  "series": 3,
+                  "repeticiones": "8-12",
+                  "descanso": "90",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Press militar con mancuernas",
+                  "series": 3,
+                  "repeticiones": "10-15",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Jalón al pecho",
+                  "series": 3,
+                  "repeticiones": "10-15",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Peso muerto",
+                  "series": 1,
+                  "repeticiones": "5",
+                  "descanso": "180",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Prensa de piernas",
+                  "series": 3,
+                  "repeticiones": "12-15",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Aperturas con mancuernas",
+                  "series": 3,
+                  "repeticiones": "12-15",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo en polea baja",
+                  "series": 3,
+                  "repeticiones": "12-15",
+                  "descanso": "75",
+                  "peso": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Desafío de la Gravedad 4",
+          "cantidad": 4,
+          "Categoria": "Fuerza",
+          "duracion": 52,
+          "dificultad": "Avanzada",
+          "dificultad_num": 88,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla Zercher",
+                  "series": 4,
+                  "repeticiones": "6-8",
+                  "descanso": "150",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press de banca inclinado con barra",
+                  "series": 4,
+                  "repeticiones": "6-8",
+                  "descanso": "150",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Dominadas con peso",
+                  "series": 3,
+                  "repeticiones": "Al fallo o 4-6",
+                  "descanso": "150",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Press Arnold",
+                  "series": 3,
+                  "repeticiones": "8-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo al mentón con barra",
+                  "series": 3,
+                  "repeticiones": "8-10",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Buenos días",
+                  "series": 3,
+                  "repeticiones": "10-12",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Peso muerto estilo sumo",
+                  "series": 3,
+                  "repeticiones": "3-5",
+                  "descanso": "180",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Fondos en paralelas con peso",
+                  "series": 3,
+                  "repeticiones": "Al fallo o 6-8",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Hip Thrust con barra",
+                  "series": 3,
+                  "repeticiones": "10-12",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cimientos Fuertes 5",
+          "cantidad": 3,
+          "Categoria": "Fuerza",
+          "duracion": 48,
+          "dificultad": "Intermedia",
+          "dificultad_num": 82,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Sentadilla frontal",
+                  "series": 3,
+                  "repeticiones": "8-10",
+                  "descanso": "105",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Press de banca con mancuernas",
+                  "series": 3,
+                  "repeticiones": "8-10",
+                  "descanso": "105",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Remo con mancuernas a una mano",
+                  "series": 3,
+                  "repeticiones": "8-10 por brazo",
+                  "descanso": "105",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Elevación lateral con mancuernas",
+                  "series": 3,
+                  "repeticiones": "12-15",
+                  "descanso": "60",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Jalón con agarre supino",
+                  "series": 3,
+                  "repeticiones": "10-12",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Peso muerto parcial (Rack Pulls)",
+                  "series": 2,
+                  "repeticiones": "5-7",
+                  "descanso": "150",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Extensión de piernas en máquina",
+                  "series": 3,
+                  "repeticiones": "12-15",
+                  "descanso": "60",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Fondos en paralelas",
+                  "series": 3,
+                  "repeticiones": "Al fallo o 8-12",
+                  "descanso": "75",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Curl de bíceps con barra",
+                  "series": 3,
+                  "repeticiones": "10-12",
+                  "descanso": "60",
+                  "peso": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Resistencia Sostenida 1",
+          "cantidad": 8,
+          "Categoria": "Resistencia",
+          "duracion": 80,
+          "dificultad": "Intermedia",
+          "dificultad_num": 60,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Carrera continua a ritmo moderado",
+                  "duracion": "30 minutos",
+                  "descanso": "N/A"
+                },
+                {
+                  "nombre": "Elíptica",
+                  "duracion": "25 minutos",
+                  "descanso": "N/A"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Natación (estilo libre)",
+                  "duracion": "40 minutos",
+                  "descanso": "Según necesidad"
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Ciclismo (en exterior o estático)",
+                  "duracion": "45 minutos",
+                  "descanso": "N/A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Endurance Total 2",
+          "cantidad": 9,
+          "Categoria": "Resistencia",
+          "duracion": 85,
+          "dificultad": "Intermedia-Avanzada",
+          "dificultad_num": 68,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Entrenamiento interválico de alta intensidad (HIIT) - Carrera",
+                  "series": 6,
+                  "repeticiones": "40 segundos sprint / 20 segundos descanso activo",
+                  "descanso": "2 minutos entre series"
+                },
+                {
+                  "nombre": "Trote suave",
+                  "duracion": "20 minutos",
+                  "descanso": "N/A"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Circuit Training (ejercicios variados con poco descanso)",
+                  "ejercicios_lista": ["Flexiones", "Sentadillas", "Burpees", "Saltos", "Plancha"],
+                  "duracion_circuito": "30 segundos por ejercicio",
+                  "rondas": 4,
+                  "descanso_entre_rondas": "3 minutos"
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Remo (ergómetro)",
+                  "duracion": "30 minutos",
+                  "intensidad": "Variada (intervalos y ritmo constante)",
+                  "descanso": "Según necesidad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Pulso Firme 3",
+          "cantidad": 7,
+          "Categoria": "Resistencia",
+          "duracion": 78,
+          "dificultad": "Intermedia",
+          "dificultad_num": 65,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Caminata rápida en cinta inclinada",
+                  "duracion": "45 minutos",
+                  "inclinacion": "5-10%",
+                  "descanso": "N/A"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Clase de spinning",
+                  "duracion": "50 minutos",
+                  "intensidad": "Moderada a alta",
+                  "descanso": "Según la clase"
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Trekking o senderismo",
+                  "duracion": "60 minutos",
+                  "terreno": "Variado",
+                  "descanso": "Según necesidad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Larga Duración 4",
+          "cantidad": 10,
+          "Categoria": "Resistencia",
+          "duracion": 90,
+          "dificultad": "Avanzada",
+          "dificultad_num": 72,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Carrera de larga distancia a ritmo constante",
+                  "duracion": "60 minutos",
+                  "ritmo": "Conversacional"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Entrenamiento de triatlón (natación, ciclismo, carrera)",
+                  "duracion_natacion": "30 minutos",
+                  "duracion_ciclismo": "45 minutos",
+                  "duracion_carrera": "20 minutos",
+                  "descanso": "Transiciones entre disciplinas"
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Maratón en bicicleta",
+                  "duracion": "90 minutos",
+                  "terreno": "Plano o con ligeras ondulaciones"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Aguante Atlético 5",
+          "cantidad": 8,
+          "Categoria": "Resistencia",
+          "duracion": 82,
+          "dificultad": "Intermedia",
+          "dificultad_num": 63,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Fútbol (partido o entrenamiento)",
+                  "duracion": "90 minutos",
+                  "intensidad": "Variable"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Baloncesto (partido o entrenamiento)",
+                  "duracion": "75 minutos",
+                  "intensidad": "Variable"
+                }
+              ]
+            },
+             {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Tenis (partido o entrenamiento)",
+                  "duracion": "60 minutos",
+                  "intensidad": "Variable"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Impacto Rápido 1",
+          "cantidad": 4,
+          "Categoria": "Explosividad",
+          "duracion": 40,
+          "dificultad": "Intermedia",
+          "dificultad_num": 75,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Salto vertical",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Lanzamiento de balón medicinal",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Saltos pliométricos",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90"
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Sprint corto (30 metros)",
+                  "series": 5,
+                  "repeticiones": "1",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Salto de longitud",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+               "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Saltos con sentadilla",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90"
+                },
+                {
+                  "nombre": "Lanzamiento de disco (adaptado)",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Potencia Instantánea 2",
+          "cantidad": 5,
+          "Categoria": "Explosividad",
+          "duracion": 45,
+          "dificultad": "Intermedia-Avanzada",
+          "dificultad_num": 80,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Cargada con envión",
+                  "series": 3,
+                  "repeticiones": "3",
+                  "descanso": "180",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Salto en caja",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Sprint en cuesta (40 metros)",
+                  "series": 4,
+                  "repeticiones": "1",
+                  "descanso": "180",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Salto triple",
+                  "series": 3,
+                  "repeticiones": "3 por pierna",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Arrancada",
+                  "series": 3,
+                  "repeticiones": "3",
+                  "descanso": "180"
+                },
+                {
+                  "nombre": "Salto con rotación",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Movimientos Detonantes 3",
+          "cantidad": 4,
+          "Categoria": "Explosividad",
+          "duracion": 38,
+          "dificultad": "Intermedia",
+          "dificultad_num": 72,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Salto con rodillas al pecho",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Pase de pecho con balón medicinal",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Sprint con cambio de dirección (conos)",
+                  "series": 4,
+                  "repeticiones": "1",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Salto lateral",
+                  "series": 3,
+                  "repeticiones": "5 por lado",
+                  "descanso": "90",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Salto con giro de 180 grados",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90"
+                },
+                {
+                   "nombre": "Lanzamiento de bala (adaptado)",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Reacción Veloz 4",
+          "cantidad": 5,
+          "Categoria": "Explosividad",
+          "duracion": 42,
+          "dificultad": "Avanzada",
+          "dificultad_num": 85,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Salto con rebote",
+                  "series": 4,
+                  "repeticiones": "5",
+                  "descanso": "120",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Lanzamiento de balón medicinal por encima de la cabeza",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Sprint con obstáculos (vallas bajas)",
+                  "series": 4,
+                  "repeticiones": "1",
+                  "descanso": "150",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Salto en profundidad",
+                  "series": 3,
+                  "repeticiones": "3",
+                  "descanso": "120",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Saltos pliométricos avanzados (combinaciones)",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "120"
+                },
+                {
+                  "nombre": "Lanzamiento de jabalina (adaptado)",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Energía Explosiva 5",
+          "cantidad": 4,
+          "Categoria": "Explosividad",
+          "duracion": 40,
+          "dificultad": "Intermedia",
+          "dificultad_num": 78,
+          "dias": [
+            {
+              "dia": "Lunes",
+              "ejercicios": [
+                {
+                  "nombre": "Salto con sentadilla y press de hombros con balón medicinal",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "105",
+                  "peso": ""
+                },
+                {
+                  "nombre": "Pase de pecho rotacional con balón medicinal",
+                  "series": 3,
+                  "repeticiones": "5 por lado",
+                  "descanso": "105",
+                  "peso": ""
+                }
+              ]
+            },
+            {
+              "dia": "Miércoles",
+              "ejercicios": [
+                {
+                  "nombre": "Sprint con cambios de ritmo",
+                  "series": 4,
+                  "repeticiones": "1",
+                  "descanso": "135",
+                  "peso": ""
+                },
+                 {
+                  "nombre": "Salto con giro y lanzamiento de balón medicinal",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "105"
+                }
+              ]
+            },
+            {
+              "dia": "Viernes",
+              "ejercicios": [
+                {
+                  "nombre": "Saltos combinados (vertical, lateral, profundidad)",
+                  "series": 3,
+                  "repeticiones": "3-5 repeticiones por salto",
+                  "descanso": "120"
+                },
+                {
+                  "nombre": "Lanzamiento de martillo (adaptado)",
+                  "series": 3,
+                  "repeticiones": "5",
+                  "descanso": "105"
+                }
+              ]
+            }
+          ]
+        }
+      ]      
+  }
+  

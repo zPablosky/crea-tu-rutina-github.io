@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/createRoutine.css">
+     <link rel="icon" type="image/png" href="/src/imgs/Gemini_Generated_Image_6e21x16e21x16e21.png">
+    <title>Crear Rutina | Muscular</title>
+</head>
+<body>
+    
+    <div class="containerBodyViewRoutine">
+
+    </div>
+    
+    <div class="containerBody">
+        <nav class="navbarLinksContainer">
+            <div class="logo_Navbar">
+              <a href="http://127.0.0.1:5500/app.html">
+                <img src="/src/imgs/logo.png" alt="">
+              </a>
+            </div>
+
+            <div class="navbarLinks">
+                <div class="link"><a href="index.html"><button><i class="ri-dashboard-fill"></i></button></a></div>
+                <div class="link"><a href="/pages/viewAllRoutines.html"><button><i class="ri-table-view"></i></button></a></div>
+                <div class="link link_Active"><a href="/pages/createRoutines.html"><button><i class="ri-edit-box-line"></i></button></a></div>
+                <div class="link"><a href="/pages/savesRoutines.html"><button><i class="ri-heart-3-fill"></i></button></a></div>
+            </div>
+
+            <div class="return">
+                <div class="link">
+                    <button><i class="ri-logout-box-line"></i></button>
+                </div>
+            </div>
+        </nav>
+
+       <div class="container_2" style="height: 96vh; overflow-x:scroll;">
+        <section class="sectionCreateRoutine" id="secCreateRoutine">
+            <header class="containerTittleHeader" style="display: grid; grid-template-columns: 1fr 60% 1fr;">
+                <div></div>
+                <div class="tittleHeader">
+                    <span>Crea tu Rutina Personalida</span>
+                    Diseña tu rutina de ejercicios personalizada
+                </div>
+                <div style="padding: 0px 32px;">
+                    <button class="closeContainerCreateRoutine"><i class="ri-close-large-fill"></i></button>
+                </div>
+            </header>
+        
+            <section class="containerCreateRoutine">
+                <div class="createRoutine">
+                    <div class="containerAgreeTitleRoutine">
+                        <span>Informacion General</span>
+        
+                        <div class="enterNameContainer">
+                            Nombre de la Rutina
+                            <input type="text" placeholder="Ej: Rutina de Fuerza - Principiante" id="inputAgreeNameOfRoutine" required>
+                        </div>
+                    </div>
+        
+                    <div class="containerAgreeDaysRoutine">
+                        <span>Seleccionar Dias de Entrenamiento</span>
+        
+                        <div class="daysListAgree">
+                            <div class="daysSelect">
+                               Lunes
+                            </div>
+                            <div class="daysSelect">
+                               Martes
+                            </div>
+                            <div class="daysSelect">
+                               Miercoles
+                            </div>
+                            <div class="daysSelect">
+                               Jueves
+                            </div>
+                            <div class="daysSelect">
+                               Viernes
+                            </div>
+                            <div class="daysSelect">
+                               Sabado
+                            </div>
+                             <div class="daysSelect">
+                               Domingo
+                            </div>
+                        </div>
+        
+                        <div class="daysSelects_ExerciesTotal" style="width: 400px; display: flex;">
+                            <div class="daysTotal" style="background-color: rgba(172, 255, 47, 0.719)">
+                                <span>0</span> dias seleccionados
+                            </div>
+                            <div class="exerciesTotal">
+                                <span>0</span> ejercicios totales
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="textSelectsExerciesContainer">
+                        <div class="presentSelectExerciesContainer">
+                            <h1>Selecciona los dias de Entrenamiento</h1>
+                            Elige uno o más días de la semana para comenzar a agregar ejercicios
+                        </div>
+                    </div>
+        
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Lunes</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Martes</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                       
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Miercoles</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Jueves</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Viernes</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Sabado</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    
+                    <section class="containeMyCreateRoutine">
+                        <header class="headerMtCreateRoutine">
+                            <h1>Domingo</h1> 
+                            <button>
+                                <span>0</span> ejecircios
+                            </button>
+                        </header>
+                       
+                        <section class="containerTableAgreeExersiesRoutine">
+                            <header style="font-size: 24px;">
+                                Ejercicios Programados
+                            </header>
+
+                            <div class="tablaContainerRoutine">
+                                <header>
+                                     <div class="titleTableHeader">
+                                        <span>Ejercicio</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Series</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Repeticiones</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Descanso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                          <span>Peso</span>
+                                     </div>
+                                     <div class="titleTableHeader">
+                                        <span>Acciones</span>
+                                     </div>
+                                </header>
+
+                                <div class="tableContainerAgreeDates">
+                                  
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="addAllRoutineData">
+                            <header class="tittleAgreeRoutine">
+                                <i class="ri-add-line"></i> 
+                                <span>Agregar Nuevo Ejercicio</span>
+                            </header>
+                            <div class="containerDatesRoutine">
+                                <div class="agreeNameRoutine">
+                                    Nombre del Ejercicio
+                                    <input type="text" placeholder="Ej: Press Banca" class="inputNameExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Series
+                                    <input type="text" placeholder="3" class="inputSeriesExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Repeticiones
+                                    <input type="text" placeholder="8-12" class="inputRepeatExersies" required>
+                                </div>
+                                <div class="agreeNameRoutine">
+                                    Descanso
+                                    <input type="text" placeholder="60" class="inputIntervalExersies" required>
+                                </div>
+                            </div>
+        
+                            <div class="containerAgreeRoutine">
+                                <div class="agreePesoRoutine">
+                                    Peso (Opcional)
+                                    <input type="text" placeholder="Ej: 50kg, Peso Corporal" class="inputAgreeWeight" required>
+                                </div>
+        
+                                <div class="buttonAgreeExercies">
+                                    <button class="buttonAgreeExersiesRoutine"><i class="ri-add-line"></i>  Agregar Ejercicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+
+                    <div class="containerSaveRoutine" style="display: flex; justify-content: center; padding-top: 24px;">
+                        <button id="saveRoutineUser">Guardar Rutina</button>
+                    </div>
+                </div>
+            
+            </section>
+        
+        </section>  
+
+        <section class="presentContainerCreateRoutineInterfaz" id="presentSectionCreateRoutine">
+            <div class="presentTittleCreateRoutine" style="text-align: center; display: flex; flex-direction: column; gap: 6px; font-size: 26px; color: rgb(61, 61, 61); margin-top: 18px;">
+                <span style="font-size: 2.2em; font-weight: 700; color: #000;">Crae tu Rutina Ahora!</span>
+                Crea rutinas de ejercicio personalizadas y <br>
+                alcanza tus objetivos fitness
+            </div>
+
+            <article class="buttonCreateRoutineWrapper" style="display: flex; flex-direction: column; gap: 24px; color: rgb(61, 61, 61); font-size: 20px; text-align: center;">
+                <div style="display: flex; justify-content: center; gap: 24px;">
+                    <button class="createRoutineButton" style="padding: 12px 28px; background-color:rgba(135, 218, 11, 0.904); border: none; border-radius: 16px; display: flex; justify-content: center;align-items: center; gap: 24px; cursor: pointer; font-size: 24px;"><i class="ri-add-line"></i> <span style="font-size: 28px; font-weight: 700;">Crear Nueva Rutina</span></button>
+                </div>
+                Diseña tu rutina paso a paso con nuestro creador intuitivo
+            </article>
+
+            <div class="plannsOfCreateRoutine">
+                <article>
+                    <i class="ri-save-3-line"></i>
+                    <span>Planifica</span>
+                    Organiza tus dias de entrenamiento
+                </article>
+                <article>
+                    <svg width="46" height="46" stroke-width="2"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.4 7H4.6C4.26863 7 4 7.26863 4 7.6V16.4C4 16.7314 4.26863 17 4.6 17H7.4C7.73137 17 8 16.7314 8 16.4V7.6C8 7.26863 7.73137 7 7.4 7Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.4 7H16.6C16.2686 7 16 7.26863 16 7.6V16.4C16 16.7314 16.2686 17 16.6 17H19.4C19.7314 17 20 16.7314 20 16.4V7.6C20 7.26863 19.7314 7 19.4 7Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 14.4V9.6C1 9.26863 1.26863 9 1.6 9H3.4C3.73137 9 4 9.26863 4 9.6V14.4C4 14.7314 3.73137 15 3.4 15H1.6C1.26863 15 1 14.7314 1 14.4Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23 14.4V9.6C23 9.26863 22.7314 9 22.4 9H20.6C20.2686 9 20 9.26863 20 9.6V14.4C20 14.7314 20.2686 15 20.6 15H22.4C22.7314 15 23 14.7314 23 14.4Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 12H16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <span>Personaliza</span>
+                    Ajusta ejercicios a tu nivel
+                </article>
+                <article>
+                    <i class="ri-progress-1-fill"></i>
+                    <span>Progresa</span>
+                    Sigue tu evolucion fitness
+                </article>
+            </div>
+
+            <section class="NoSavedRoutinesContainer" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 8rem; text-align: center;">
+                <article class="wrrapperNoSavedRoutines" style="display: flex; flex-direction: column; justify-content: center;  align-items: center; gap: 32px;">
+                    <div>
+                        <svg width="46" height="46" stroke-width="2"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.4 7H4.6C4.26863 7 4 7.26863 4 7.6V16.4C4 16.7314 4.26863 17 4.6 17H7.4C7.73137 17 8 16.7314 8 16.4V7.6C8 7.26863 7.73137 7 7.4 7Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.4 7H16.6C16.2686 7 16 7.26863 16 7.6V16.4C16 16.7314 16.2686 17 16.6 17H19.4C19.7314 17 20 16.7314 20 16.4V7.6C20 7.26863 19.7314 7 19.4 7Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 14.4V9.6C1 9.26863 1.26863 9 1.6 9H3.4C3.73137 9 4 9.26863 4 9.6V14.4C4 14.7314 3.73137 15 3.4 15H1.6C1.26863 15 1 14.7314 1 14.4Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23 14.4V9.6C23 9.26863 22.7314 9 22.4 9H20.6C20.2686 9 20 9.26863 20 9.6V14.4C20 14.7314 20.2686 15 20.6 15H22.4C22.7314 15 23 14.7314 23 14.4Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 12H16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </div>
+                    <div>
+                        <span>No hay Rutinas Guardadas</span>
+                    </div>
+                    <div style="margin-top: 24px;">
+                        Las rutinas que crees apareceran aqui. !Crea tu Primera Rutina para Comenzar
+                    </div>
+                </article>
+
+                <article class="savesRoutineTheUser">
+                    <header>
+                        <span>Mis Rutinas guardadas</span>
+                        Gestiona y organiza todas tus rutinas de entrenamiento
+                        <div>
+                            <button><span>1</span> rutinas guardada</button>
+                        </div>
+                    </header>
+
+                    <div class="containerSavesRoutineOfUser">
+                        
+                    </div>
+                </article>
+            </section>
+        </section>
+    </div> 
+</div>
+
+    <script src="/scripts/createRoutine.js"></script>
+</body>
+</html>
+
+ 
